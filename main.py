@@ -51,7 +51,7 @@ for item in masterList:
 fields = ['Rank', 'Team', 'conf', 'W-L', 'NetRtg', 'ORtg', 'Seed', 'DRtg', 'Seed', 'AdjT', 'Seed', 'Luck',
           'Seed', 'NetRtg', 'Seed', 'ORtg', 'Seed', 'DRtg', 'Seed', 'NetRtg', 'Seed']
 
-with open('output.csv', 'w', newline='') as f:
+with open('teamRankings.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(fields)
     writer.writerows(finalList)
